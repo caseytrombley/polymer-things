@@ -1,3 +1,5 @@
+<!-- new polymer element
+	
 <snippet>
 	<content><![CDATA[
 <link rel="import" href="../../bower_components/polymer/polymer.html">
@@ -20,3 +22,5 @@
 ]]></content>
 	<tabTrigger>&lt;polymer</tabTrigger>
 </snippet>
+
+-->
