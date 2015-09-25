@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="$1" attributes="${2/:[^\n$]*(\n[ \t]*|$)/ /g}">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+		</style>$3
+	</template>
+	<script>
+		Polymer('$1', {
+			$2
+		});
+	</script>
+</polymer-element>
+
+]]></content>
+	<tabTrigger>&lt;polymer</tabTrigger>
+</snippet>
